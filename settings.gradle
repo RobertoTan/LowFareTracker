@@ -1,0 +1,1 @@
+include ':app', ':configuration', ':workflow', ':rest', ':domain'

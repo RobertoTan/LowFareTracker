@@ -1,0 +1,166 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".WorkflowRunnerActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/originLabel"
+        android:id="@+id/textViewOrigin"
+        android:labelFor="@+id/editTextOrigin"
+        android:layout_alignRight="@+id/textViewDestination"
+        android:layout_alignEnd="@+id/textViewDestination" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/destinationLabel"
+        android:id="@+id/textViewDestination"
+        android:labelFor="@+id/editTextDestination"
+        android:layout_below="@+id/autoCompleteTextViewAirportsOrigin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/departureDateLabel"
+        android:id="@+id/textViewDepartureDate"
+        android:labelFor="@+id/editTextDepartureDate"
+        android:layout_below="@+id/autoCompleteTextViewAirportsDestination"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/editTextDepartureDate"
+        android:layout_toStartOf="@+id/editTextDepartureDate" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/editTextDepartureDate"
+        android:editable="false"
+        android:layout_below="@+id/autoCompleteTextViewAirportsDestination"
+        android:layout_alignLeft="@+id/autoCompleteTextViewAirportsDestination"
+        android:layout_alignStart="@+id/autoCompleteTextViewAirportsDestination"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_toStartOf="@+id/buttonDateDialog"
+        android:layout_toLeftOf="@+id/buttonDateDialog" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setDateButtonLabel"
+        android:id="@+id/buttonDateDialog"
+        android:onClick="showDatePickerDialog"
+        android:layout_alignBottom="@+id/editTextDepartureDate"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/returnDateLable"
+        android:id="@+id/textViewReturnDate"
+        android:labelFor="@+id/editTextReturnDate"
+        android:layout_below="@+id/editTextDepartureDate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/editTextReturnDate"
+        android:layout_toStartOf="@+id/editTextReturnDate" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/editTextReturnDate"
+        android:editable="false"
+        android:layout_below="@+id/editTextDepartureDate"
+        android:layout_alignLeft="@+id/autoCompleteTextViewAirportsDestination"
+        android:layout_alignStart="@+id/autoCompleteTextViewAirportsDestination"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_toStartOf="@+id/buttonDateDialog"
+        android:layout_toLeftOf="@+id/buttonDateDialog" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setDateButtonLabel"
+        android:id="@+id/buttonReturnDateDialog"
+        android:onClick="showDatePickerDialog"
+        android:layout_alignBottom="@+id/editTextReturnDate"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FareBar"
+        android:id="@+id/textViewFareBar"
+        android:labelFor="@+id/editTextFareBar"
+        android:layout_below="@+id/editTextReturnDate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/editTextFareBar"
+        android:layout_toStartOf="@+id/editTextFareBar" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/editTextFareBar"
+        android:layout_below="@+id/editTextReturnDate"
+        android:layout_toStartOf="@+id/buttonDateDialog"
+        android:layout_toLeftOf="@+id/buttonDateDialog" />
+
+
+    <AutoCompleteTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/autoCompleteTextViewAirportsOrigin"
+        android:layout_alignTop="@+id/textViewOrigin"
+        android:layout_toRightOf="@+id/textViewOrigin"
+        android:layout_toStartOf="@+id/buttonExecute"
+        android:completionThreshold="1"
+        android:layout_alignRight="@+id/autoCompleteTextViewAirportsDestination"
+        android:layout_alignEnd="@+id/autoCompleteTextViewAirportsDestination" />
+
+    <AutoCompleteTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/autoCompleteTextViewAirportsDestination"
+        android:layout_below="@+id/autoCompleteTextViewAirportsOrigin"
+        android:layout_toRightOf="@+id/textViewDestination"
+        android:completionThreshold="1"
+        android:layout_toLeftOf="@+id/buttonDateDialog"
+        android:layout_toStartOf="@+id/buttonDateDialog" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_low_fare"
+        android:id="@+id/buttonExecute"
+        android:onClick="runWorkflow"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="43dp" />
+
+    <Button
+        android:text="Book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:onClick="onBook"
+        android:id="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

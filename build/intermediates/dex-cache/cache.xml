@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/yuzhigang/workspace/src_open/sabre_git/SACS-Android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/yuzhigang/workspace/src_open/sabre_git/SACS-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_7f80c33faa8e9f66421b00c9fda56e0d4fa10e24/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuzhigang/workspace/src_open/sabre_git/SACS-Android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/yuzhigang/workspace/src_open/sabre_git/SACS-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_dbcc9e16e8551705575556c02f80f047178b84a9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuzhigang/workspace/src_open/sabre_git/SACS-Android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/yuzhigang/workspace/src_open/sabre_git/SACS-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_b4361d44f3319845e621e810b2b6cc22c4da239a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuzhigang/.gradle/caches/modules-2/files-2.1/org.springframework.android/spring-android-core/2.0.0.M1/26b2d3262a0c5f8de663deeb6481d132d871fffa/spring-android-core-2.0.0.M1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="26b2d3262a0c5f8de663deeb6481d132d871fffa">
+        <dex dex="/Users/yuzhigang/workspace/src_open/sabre_git/SACS-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/spring-android-core-2.0.0.M1_1b58b5baee410153fc960271e12d6e9b027f394e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuzhigang/workspace/src_open/sabre_git/SACS-Android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="35882eb4528f0f2bbe801b5d937f9e0c94ea6370">
+        <dex dex="/Users/yuzhigang/workspace/src_open/sabre_git/SACS-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_1732ea8e28b2571c5a84926fb0027648d114c449/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuzhigang/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.3.2/c75edc740a6d8cb1cef6fa82fa594e0bce561916/jackson-databind-2.3.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c75edc740a6d8cb1cef6fa82fa594e0bce561916">
+        <dex dex="/Users/yuzhigang/workspace/src_open/sabre_git/SACS-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-databind-2.3.2_da49703500e663b7a809ca78ab63447f33e1094b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuzhigang/workspace/src_open/sabre_git/SACS-Android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/yuzhigang/workspace/src_open/sabre_git/SACS-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_d5a37c261ad4ea661582a8a3631bf0b0e4c29b1b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuzhigang/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.3.2/559b70ac8a0d5cad611da4223137a920147201ba/jackson-core-2.3.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="559b70ac8a0d5cad611da4223137a920147201ba">
+        <dex dex="/Users/yuzhigang/workspace/src_open/sabre_git/SACS-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.3.2_dcb9808e2f7668a047c254f149dee0b091dc63ac/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuzhigang/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.6.2/daf24f84fe134864b9e4d0b4e437c81353ac06c2/jackson-annotations-2.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="daf24f84fe134864b9e4d0b4e437c81353ac06c2">
+        <dex dex="/Users/yuzhigang/workspace/src_open/sabre_git/SACS-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-annotations-2.6.2_f810bb95ef2fefed5d4e063ac108d6469f5c394e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuzhigang/workspace/src_open/sabre_git/SACS-Android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="7f44c55905cf804dbfc190b473e23983438a652f">
+        <dex dex="/Users/yuzhigang/workspace/src_open/sabre_git/SACS-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_74ca9fc5ebda740a5e403fe3e5a79851f785c217/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuzhigang/.gradle/caches/modules-2/files-2.1/org.springframework.android/spring-android-rest-template/2.0.0.M1/6abb1e22445a4e4571c74632804e4179b43d82b5/spring-android-rest-template-2.0.0.M1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6abb1e22445a4e4571c74632804e4179b43d82b5">
+        <dex dex="/Users/yuzhigang/workspace/src_open/sabre_git/SACS-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/spring-android-rest-template-2.0.0.M1_9ac57ae435bfc0881a9b5d27fdc27410b11aa2d9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuzhigang/workspace/src_open/sabre_git/SACS-Android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/yuzhigang/workspace/src_open/sabre_git/SACS-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_c5bcf62ed7a4f2f006222b81473da556b8193aeb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuzhigang/Downloads/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/yuzhigang/workspace/src_open/sabre_git/SACS-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_a52f6cb87ee954db6128f4dd259c926dcba004e7/classes.dex" />
+    </item>
+
+</items>
